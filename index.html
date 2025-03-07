@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Decoder / Deobfuscator Pro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="beautify.js"></script>
+    <script src="syntaxhighlighter.js"></script>
+    <script src="decoder.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1>JavaScript Decoder / Deobfuscator Pro</h1>
+    <div class="input-section">
+        <textarea id="codeInput" placeholder="Paste your obfuscated JavaScript code here..."></textarea>
+        <input type="file" id="fileInput">
+        <button onclick="loadFile()">Load File</button>
+    </div>
+
+    <div class="button-section">
+        <button onclick="detectAndDecode()">DECODE NOW</button>
+        <button onclick="beautifyCode()">Beautify</button>
+        <button onclick="clearCode()">Clear</button>
+        <button onclick="downloadCode()">Download</button>
+    </div>
+
+    <div class="output-section">
+        <pre id="result"></pre>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+
+body {
+    background-color: #0f0f0f;
+    color: #f8f8f8;
+    font-family: Consolas, monospace;
+    padding: 20px;
+}
+.container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.6);
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    background-color: #252526;
+    color: #dcdcaa;
+}
+pre {
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+    max-height: 300px;
+}
+button {
+    background-color: #008f11;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #00ff41;
+    color: black;
+}
